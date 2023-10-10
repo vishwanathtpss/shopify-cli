@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "55c65753-1649-4118-8c21-f4f075b93f1e": {
+      "type": "custom-about-setion",
+      "settings": {
+        "text_id": "WHO ARE WE?",
+        "para_id": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+        "image_id": "shopify:\/\/shop_images\/about-img.jpg"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "55c65753-1649-4118-8c21-f4f075b93f1e"
+  ]
+}

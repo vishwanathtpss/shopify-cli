@@ -1,0 +1,285 @@
+{
+  "sections": {
+    "053ddbda-549d-4872-bb3d-b0f7eed14551": {
+      "type": "custom-slider",
+      "blocks": {
+        "template--14900277084241__053ddbda-549d-4872-bb3d-b0f7eed14551-image_slide-1": {
+          "type": "image_slide",
+          "settings": {
+            "text_id": "Your Saftey",
+            "text_id_two": "Our Responsibility",
+            "para_id": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "d636c8e0-14c4-455f-8d49-f21bbd69ec00": {
+          "type": "image_slide",
+          "settings": {
+            "text_id": "Your Saftey",
+            "text_id_two": "Our Responsibility",
+            "para_id": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "569cf702-936d-4054-bf67-7fbb6bd13fe4": {
+          "type": "image_slide",
+          "settings": {
+            "text_id": "Your Saftey",
+            "text_id_two": "Our Responsibility",
+            "para_id": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod magna aliqua. Ut enim ad minim veniam"
+          }
+        }
+      },
+      "block_order": [
+        "template--14900277084241__053ddbda-549d-4872-bb3d-b0f7eed14551-image_slide-1",
+        "d636c8e0-14c4-455f-8d49-f21bbd69ec00",
+        "569cf702-936d-4054-bf67-7fbb6bd13fe4"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "0ccf53f4-258a-458c-b256-238756c2b786": {
+      "type": "collection-list",
+      "blocks": {
+        "template--14900277084241__0ccf53f4-258a-458c-b256-238756c2b786-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accesseries"
+          }
+        },
+        "template--14900277084241__0ccf53f4-258a-458c-b256-238756c2b786-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelet"
+          }
+        },
+        "template--14900277084241__0ccf53f4-258a-458c-b256-238756c2b786-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "smart-watch"
+          }
+        },
+        "98b0ea47-2d1e-4187-8c30-b1c71b120a1c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ring"
+          }
+        },
+        "898eea6e-2632-4b28-95be-da2cff279b8c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kitchen-remodeling"
+          }
+        },
+        "57647831-bc9e-4ac8-935d-997d9c923984": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "earings"
+          }
+        }
+      },
+      "block_order": [
+        "template--14900277084241__0ccf53f4-258a-458c-b256-238756c2b786-featured_collection-1",
+        "template--14900277084241__0ccf53f4-258a-458c-b256-238756c2b786-featured_collection-2",
+        "template--14900277084241__0ccf53f4-258a-458c-b256-238756c2b786-featured_collection-3",
+        "98b0ea47-2d1e-4187-8c30-b1c71b120a1c",
+        "898eea6e-2632-4b28-95be-da2cff279b8c",
+        "57647831-bc9e-4ac8-935d-997d9c923984"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9ff4ff63-925a-4900-b6b3-a451952acf49": {
+      "type": "custom-about-setion",
+      "settings": {
+        "text_id": "WHO ARE WE?",
+        "para_id": "Lorem ipsum dolor sit amet,s consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit",
+        "image_id": "shopify:\/\/shop_images\/about-img.jpg"
+      }
+    },
+    "9e4a8859-a2f3-47ff-8d97-7514045edd15": {
+      "type": "service-section",
+      "blocks": {
+        "template--14900277084241__9e4a8859-a2f3-47ff-8d97-7514045edd15-text-1": {
+          "type": "text",
+          "settings": {
+            "para_id": "Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.",
+            "servicename_id": "HOME SECURITY",
+            "image_id": "shopify:\/\/shop_images\/favicon.png"
+          }
+        },
+        "10925cf9-f3a1-4769-ba2e-2217f344b8b1": {
+          "type": "text",
+          "settings": {
+            "para_id": "Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.",
+            "servicename_id": "OFFICE SECURITY",
+            "image_id": "shopify:\/\/shop_images\/s2.svg"
+          }
+        },
+        "b262edaa-319d-4e68-b366-04d9530609f3": {
+          "type": "text",
+          "settings": {
+            "para_id": "Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.",
+            "servicename_id": "BODYGUARD",
+            "image_id": "shopify:\/\/shop_images\/s3.svg"
+          }
+        }
+      },
+      "block_order": [
+        "template--14900277084241__9e4a8859-a2f3-47ff-8d97-7514045edd15-text-1",
+        "10925cf9-f3a1-4769-ba2e-2217f344b8b1",
+        "b262edaa-319d-4e68-b366-04d9530609f3"
+      ],
+      "settings": {
+        "text_id": "OUR SERVICES"
+      }
+    },
+    "04639e71-0a29-4c8e-a5f7-85db7d508eed": {
+      "type": "client-section",
+      "blocks": {
+        "template--14900277084241__04639e71-0a29-4c8e-a5f7-85db7d508eed-text-1": {
+          "type": "text",
+          "settings": {
+            "client_id": "Minim Veniam",
+            "para_id": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
+            "image_id": "shopify:\/\/shop_images\/client_58fd4253-ad52-4ae8-9d4b-343560b6b2f3.png"
+          }
+        },
+        "e3af5100-21d3-4db9-8a5a-a7a236a9e88e": {
+          "type": "text",
+          "settings": {
+            "client_id": "Minim Veniam",
+            "para_id": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
+            "image_id": "shopify:\/\/shop_images\/client_58fd4253-ad52-4ae8-9d4b-343560b6b2f3.png"
+          }
+        },
+        "434181b4-b220-4b54-86be-5ddc6ae6f979": {
+          "type": "text",
+          "settings": {
+            "client_id": "Minim Veniam",
+            "para_id": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
+            "image_id": "shopify:\/\/shop_images\/client_58fd4253-ad52-4ae8-9d4b-343560b6b2f3.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--14900277084241__04639e71-0a29-4c8e-a5f7-85db7d508eed-text-1",
+        "e3af5100-21d3-4db9-8a5a-a7a236a9e88e",
+        "434181b4-b220-4b54-86be-5ddc6ae6f979"
+      ],
+      "settings": {
+        "text_id": "What is says our clients"
+      }
+    },
+    "a3d4281f-f6f0-47fa-9232-ff1891efee27": {
+      "type": "guard-section",
+      "blocks": {
+        "template--14900277084241__a3d4281f-f6f0-47fa-9232-ff1891efee27-text-1": {
+          "type": "text",
+          "settings": {
+            "guard_id": "Martin Anderson",
+            "guard_position_id": "supervisor",
+            "image_id": "shopify:\/\/shop_images\/t2.jpg"
+          }
+        },
+        "79d79de1-f045-4005-9502-d003842dcaf5": {
+          "type": "text",
+          "settings": {
+            "guard_id": "Denny Butler",
+            "guard_position_id": "supervisor",
+            "image_id": "shopify:\/\/shop_images\/t2.jpg"
+          }
+        },
+        "904fc984-b7eb-4cbe-b5f7-b34eba3e8b42": {
+          "type": "text",
+          "settings": {
+            "guard_id": "Nathan Mcpherson",
+            "guard_position_id": "supervisor",
+            "image_id": "shopify:\/\/shop_images\/t3.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--14900277084241__a3d4281f-f6f0-47fa-9232-ff1891efee27-text-1",
+        "79d79de1-f045-4005-9502-d003842dcaf5",
+        "904fc984-b7eb-4cbe-b5f7-b34eba3e8b42"
+      ],
+      "settings": {
+        "text_id": "Our Guards",
+        "para_id": "Lorem ipsum dolor sit amet, non odio tincidunt ut ante, lorem a euismod suspendisse vel, sed quam nulla mauris iaculis. Erat eget vitae malesuada, tortor tincidunt porta lorem lectus."
+      }
+    },
+    "9aef8c43-0f0b-44a7-ad2c-afc9b594594f": {
+      "type": "custom-contact-form",
+      "settings": {
+        "text_id": ""
+      }
+    },
+    "8485c5a7-cd27-4269-b6f2-d0e5e774e320": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": "GET IN TOUCH",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0eb388c9-d3b0-4812-80c0-359715c77a28": {
+      "type": "guarder",
+      "disabled": true,
+      "settings": {
+        "text_id": "vishwaanath"
+      }
+    },
+    "52c22238-bc5c-4c13-80cc-be164767444c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "ring",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "053ddbda-549d-4872-bb3d-b0f7eed14551",
+    "0ccf53f4-258a-458c-b256-238756c2b786",
+    "9ff4ff63-925a-4900-b6b3-a451952acf49",
+    "9e4a8859-a2f3-47ff-8d97-7514045edd15",
+    "04639e71-0a29-4c8e-a5f7-85db7d508eed",
+    "a3d4281f-f6f0-47fa-9232-ff1891efee27",
+    "9aef8c43-0f0b-44a7-ad2c-afc9b594594f",
+    "8485c5a7-cd27-4269-b6f2-d0e5e774e320",
+    "0eb388c9-d3b0-4812-80c0-359715c77a28",
+    "52c22238-bc5c-4c13-80cc-be164767444c"
+  ]
+}

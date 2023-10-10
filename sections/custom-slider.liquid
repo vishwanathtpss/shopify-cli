@@ -1,0 +1,96 @@
+{% if template =='index' %}
+<section class=" slider_section ">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        
+        <div class="carousel-inner">
+           {% for block in section.blocks  %}
+          <div class="carousel-item {% if forloop.first %} active {% endif %}">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="detail-box">
+                    <h1>
+                      {{ block.settings.text_id }} <br>
+                      <span>
+                       {{ block.settings.text_id_two }}
+                      </span>
+                    </h1>
+                    <p>
+                      {{ block.settings.para_id }}
+                    </p>
+                    <div class="btn-box">
+                      <a href="" class="btn-1"> Read more </a>
+                      <a href="" class="btn-2">Get A Quote</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+           {% endfor %}
+        </div>
+           
+        <div class="container idicator_container">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  {% endif %}
+{% schema %}
+  {
+    "name": "custom slider",
+    "blocks": [
+      {
+       "type":"image_slide",
+      "name":"image_slider",
+      "limit":3,
+     "settings":[
+      {
+        "type": "text",
+        "id": "text_id",
+        "label": "Your Saftey",
+        "default": "Your Saftey"
+      },
+       {
+        "type": "text",
+        "id": "text_id_two",
+        "label": "Our Responsibility",
+        "default": "Our Responsibility"
+      },
+      {
+        "type": "textarea",
+        "id": "para_id",
+        "label": "paragraph for slider"
+      }
+     ]
+      }
+    ],
+    "presets": [
+    {
+      "name": "custom slider",
+        "blocks":[
+       {
+       "type":"image_slide"  
+       }
+       ]
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+    $.noConflict();
+  $(document).ready(function(){
+  $('#carouselExampleIndicators').carousel({
+  interval: 3000,
+  cycle: true
+});
+}); 
+{% endjavascript %}

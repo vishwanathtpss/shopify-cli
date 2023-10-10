@@ -1,0 +1,63 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "02a14426-28c2-462f-862f-f2fbfdde74c1": {
+          "type": "text",
+          "settings": {
+            "heading": "<a href=\"\/index\" title=\"\/index\">Guarder<\/a>",
+            "subtext": "<p>dolor sit amet, consectetur magna aliqua. Ut enim ad minim veniam, quisdotempor incididunt r<\/p>"
+          }
+        },
+        "92255e15-b8cd-4ccf-bdb5-69a4557c97dd": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Useful Link",
+            "menu": "footer"
+          }
+        },
+        "ffc917b6-aaf7-4f54-9d4e-2c72c3ed9a71": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Contact Us",
+            "menu": "contact-us-1"
+          }
+        },
+        "fd4d91d4-b5b7-419e-977e-680954aaa07a": {
+          "type": "submit",
+          "settings": {
+            "newsletter_enable": true,
+            "checkbox_id": true,
+            "newsletter_heading": "News Letter"
+          }
+        }
+      },
+      "block_order": [
+        "02a14426-28c2-462f-862f-f2fbfdde74c1",
+        "92255e15-b8cd-4ccf-bdb5-69a4557c97dd",
+        "ffc917b6-aaf7-4f54-9d4e-2c72c3ed9a71",
+        "fd4d91d4-b5b7-419e-977e-680954aaa07a"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": false,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

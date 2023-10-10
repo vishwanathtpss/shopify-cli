@@ -1,0 +1,90 @@
+<section class="service_section layout_padding ">
+    <div class="container">
+      <div class="heading_container heading_center">
+
+        <h2>
+         {{ section.settings.text_id }}
+        </h2>
+      </div>
+      <div class="row">
+         {% for block in section.blocks  %}
+        <div class="col-md-4">
+          <div class="box ">
+            <div class="img-box">
+        <img src="{{ block.settings.image_id | image_url: width: 85 | image_tag: alt }}"> 
+            
+            </div>
+            <div class="detail-box">
+              <h6>
+                {{ block.settings.servicename_id }}
+              </h6>
+              <p>
+              {{ block.settings.para_id }}
+              </p>
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+    {% endfor %}
+          </div>
+ 
+    </div>
+  </section>
+{% schema %}
+  {
+    "name": "service section",
+    "settings":[
+      {
+        "type": "text",
+        "id": "text_id",
+        "label": "service section heading",
+        "default":"Our services"
+      }
+    ],
+    "blocks": [
+      {
+       "type": "text",
+       "name":"service section",
+        "limit":3,
+         "settings":[
+      {
+        "type": "text",
+        "id": "para_id",
+        "label": "service paragraph",
+        "default":"services paragraph"
+      }
+,
+         {
+        "type": "text",
+        "id": "servicename_id",
+        "label": "service Name",
+         "default":"services name"
+          },
+             {
+          "type": "image_picker",
+          "id": "image_id",
+          "label": "Service Image"
+        }
+         ]
+    }
+    ],
+       "presets": [
+    {
+      "name": "service section",
+        "blocks":[
+       {
+       "type":"text"  
+       }
+       ]
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

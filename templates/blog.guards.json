@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "guard-section",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

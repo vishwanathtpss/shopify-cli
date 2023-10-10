@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "main": {
+      "type": "service-section",
+      "blocks": {
+        "9175cad6-ba75-404c-93cc-e3b3f274de15": {
+          "type": "text",
+          "settings": {
+            "para_id": "Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.",
+            "servicename_id": "HOME SECURITY",
+            "image_id": "shopify:\/\/shop_images\/favicon.png"
+          }
+        },
+        "c0e4912f-49c9-498f-8907-769e320cf1dd": {
+          "type": "text",
+          "settings": {
+            "para_id": "Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.",
+            "servicename_id": "OFFICE SECURITY",
+            "image_id": "shopify:\/\/shop_images\/s2.svg"
+          }
+        },
+        "86a38af4-59b8-45a4-9139-e720fdc7059a": {
+          "type": "text",
+          "settings": {
+            "para_id": "Minima consequatur architecto eaque assumenda ipsam itaque quia eum in doloribus debitis impedit ut minus tenetur corrupti excepturi ullam.",
+            "servicename_id": "BODYGUARD",
+            "image_id": "shopify:\/\/shop_images\/s3.svg"
+          }
+        }
+      },
+      "block_order": [
+        "9175cad6-ba75-404c-93cc-e3b3f274de15",
+        "c0e4912f-49c9-498f-8907-769e320cf1dd",
+        "86a38af4-59b8-45a4-9139-e720fdc7059a"
+      ],
+      "settings": {
+        "text_id": "Our services"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

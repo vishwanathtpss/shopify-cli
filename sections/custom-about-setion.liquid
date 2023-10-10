@@ -1,0 +1,126 @@
+  <section class="about_section layout_padding">
+    <h3>hello</h3>
+    <div class="container" style="display: flex;
+  flex-wrap: wrap;
+  text-align: center;">
+      <!-- {% for collection in collections %}
+       <div class="cm_colec_col" style="padding-left:11px">
+          <a href="{{collection.url}}">
+           <h5>Total Products:{{ collection.all_products_count }}</h5>  
+           <div class="cm_colec_img"> 
+             {% if collection.image %}
+                <img src="{{ collection | img_url: '133x175' }}" alt="{{ collection.image.alt }}" />
+             {% else %}
+                <img src="{{ collection.products.first | img_url: '133x175' }}" alt="{{ collection.title | escape  }}" />
+             {% endif %}
+            </div>
+            <div class="cm_colec_title"><span>{{collection.title}}</span></div>
+          </a>
+       </div>
+{% endfor %} -->
+           <div class="product-single__tags">
+    <p>
+      Tags:
+      {% for tag in product.tags %}
+      {% assign tag_coll = '/collections/all/' | append: tag %}
+        {{ tag | capitalize | link_to: tag_coll }}{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    </p>
+  </div>
+      {% for product in collection.products -%}
+  {{ product.title }}
+{%- endfor %}
+      {% for product in collection.products -%}
+      {{ product.title }}
+        {% for tag in product.tags %}
+{{ tag }}
+      {% if tag contains 'brascelet' %}
+          <div class="ProductPage-labelItem">
+             <h4 class="hii">hello</h4>
+          </div>
+      {% endif %}
+
+{% endfor %}
+{%- endfor %}
+
+ {% if product.tags contains 'tranding' %}
+     <h3 class="hii">hello</h3>  
+   {% endif %}
+       {% for tag in product.tags %}
+      {% assign tag_coll = '/collections/all/' | append: tag %}
+       
+          {% if tag contains 'brascelet' %}
+             {{ tag | capitalize | link_to: tag_coll }}{% unless forloop.last %},{% endunless %}
+          <div class="ProductPage-labelItem">
+             <h4 class="hii">hello</h4>
+          </div>
+      {% endif %}
+      {% endfor %}
+      <div class="row">
+        <div class="col-md-6 px-0">
+          <div class="img_container">
+            <div class="img-box">
+             
+              <img src="{{ section.settings.image_id | img_url: '' }}" alt="">
+             <!-- <img src="{{ block.settings.image_id | img_url: '' }}" alt=""> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="detail-box">
+            <div class="heading_container ">
+             
+              <h2>
+               {{ section.settings.text_id }}
+              </h2>
+            
+            </div>
+             
+            <p>
+             {{ section.settings.para_id  }}
+            </p>
+        
+            <div class="btn-box">
+              <a href="">
+                Read More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% schema %}
+  {
+    "name": "about setion",
+    "settings": [
+       {
+        "type": "text",
+        "id": "text_id",
+        "label": "paragraph for slider"
+      },
+      {
+        "type": "textarea",
+        "id": "para_id",
+        "label": "paragraph for slider"
+      },
+      {
+      "type": "image_picker",
+      "id": "image_id",
+      "label": "Image"
+    }
+
+    ],
+    "presets":[
+      {
+      "name":"about section"
+       }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

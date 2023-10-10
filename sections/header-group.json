@@ -1,0 +1,64 @@
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "custom_css": [],
+      "settings": {
+        "logo_position": "left-right",
+        "menu": "guarders",
+        "menu_type_desktop": "mega",
+        "sticky_header_type": "reduce-logo-size",
+        "show_line_separator": false,
+        "color_scheme": "inverse",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "left",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "4f533d1b-6857-44cc-8eb9-5accbeaa014e": {
+      "type": "custom-slider",
+      "blocks": {
+        "sections--14900277477457__4f533d1b-6857-44cc-8eb9-5accbeaa014e-image_slide-1": {
+          "type": "image_slide",
+          "settings": {
+            "text_id": "Your Saftey",
+            "text_id_two": "Our Responsibility",
+            "para_id": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "0318d2f0-72b3-404f-a240-cfefa48d1a1a": {
+          "type": "image_slide",
+          "settings": {
+            "text_id": "Your Saftey",
+            "text_id_two": "Our Responsibility",
+            "para_id": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod magna aliqua. Ut enim ad minim veniam"
+          }
+        },
+        "8c8a4a83-7cc4-46a9-b09c-4f8ceaf973d3": {
+          "type": "image_slide",
+          "settings": {
+            "text_id": "Your Saftey",
+            "text_id_two": "Our Responsibility",
+            "para_id": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod magna aliqua. Ut enim ad minim veniam"
+          }
+        }
+      },
+      "block_order": [
+        "sections--14900277477457__4f533d1b-6857-44cc-8eb9-5accbeaa014e-image_slide-1",
+        "0318d2f0-72b3-404f-a240-cfefa48d1a1a",
+        "8c8a4a83-7cc4-46a9-b09c-4f8ceaf973d3"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "header",
+    "4f533d1b-6857-44cc-8eb9-5accbeaa014e"
+  ]
+}

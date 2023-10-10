@@ -1,0 +1,161 @@
+
+  <section class="team_section layout_padding">
+    <div class="container" style=" display: flex;
+  flex-wrap: wrap;
+  text-align: center;">
+      {% for collection in collections %}
+       <div class="cm_colec_col" style="padding-left:11px">
+          <a href="{{collection.url}}">
+           <h5>Total Products:{{ collection.all_products_count }}</h5>  
+           <div class="cm_colec_img"> 
+             {% if collection.image %}
+                <img src="{{ collection | img_url: '133x175' }}" alt="{{ collection.image.alt }}" />
+             {% else %}
+                <img src="{{ collection.products.first | img_url: '133x175' }}" alt="{{ collection.title | escape  }}" />
+             {% endif %}
+            </div>
+            <div class="cm_colec_title"><span>{{collection.title}}</span></div>
+          </a>
+       </div>
+{% endfor %}
+     {% comment %}  {% for collection in collections %}
+  {{- collection.title | link_to: collection.url }}
+         <br>
+        
+{% endfor %}
+
+ <!-- {{ json | collections }} -->
+{% for page in pages -%}
+  {%- if forloop.length > 0 -%}
+    <h3>{{ page.title }}{% unless forloop.last %}, {% endunless -%}</h3>
+  {%- endif -%}
+{% endfor %}
+{% for tag in collection.all_tags %}
+  {{- tag | link_to_tag: tag }}
+{% endfor %}
+{% assign article = articles %}
+{{ article.title | link_to: article.url }}
+{% form 'create_customer' %}
+  {{ form.errors | default_errors }}
+
+  <div class="first-name">
+    <label for="first-name">First name</label>
+    <input type="text" name="customer[first_name]">
+  </div>
+
+  <div class="last-name">
+    <label for="last-name">Last name</label>
+    <input type="text" name="customer[last_name]">
+  </div>
+
+  <div class="email">
+    <label for="email">Email</label>
+    <input type="email" name="customer[email]">
+  </div>
+
+  <div class="password">
+    <label for="password">Password</label>
+    <input type="password" name="customer[password]">
+  </div>
+
+  <div class="submit">
+    <input type="submit" value="Create">
+  </div>
+{% endform %}
+{% endcomment %} 
+
+      <div class="heading_container heading_center">
+        <h2>
+
+          {{ section.settings.text_id }}
+        </h2>
+        <p>
+         {{ section.settings.para_id }}
+        </p>
+      </div>
+      <div class="row">
+        {% for block in section.blocks  %}
+        <div class="col-md-4 col-sm-6 mx-auto ">
+          <div class="box">
+            <div class="img-box">
+              <!-- <img src="{{ block.settings.image_id | image_url: width: 360  | image_tag: alt }}"> -->
+                <img src="{{ block.settings.image_id | img_url: '' }}" alt="">
+            </div>
+            <div class="detail-box">
+              <h5>
+               {{ block.settings.guard_id }}
+              </h5>
+              <h6 class="">
+               {{ block.settings.guard_position_id }}
+              </h6>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="btn-box">
+        <a href="">
+          View All
+        </a>
+      </div>
+    </div>
+  </section>
+
+{% schema %}
+  {
+    "name": "guard section",
+     "settings": [{
+      "type": "text",
+      "id": "text_id",
+     "label": "section heading",
+     "default":"Our Guards"
+    },
+       {
+       "type": "text",
+      "id": "para_id",
+     "label": "About Guard"
+    }
+     ],
+        "blocks": [
+      {
+       "type": "text",
+       "name":"guard section",
+        "limit":3,
+         "settings":[
+      {
+        "type": "text",
+        "id": "guard_id",
+        "label": "guard name",
+        "default":"guard Name"
+      }, {
+        "type": "text",
+        "id": "guard_position_id",
+        "label": "Guard Position",
+        "default":"Guard Position"
+      },
+           {
+          "type": "image_picker",
+          "id": "image_id",
+          "label": "Guard Image"
+        }
+         ]
+  }
+    ],
+    "presets": [
+    {
+      "name": "guard section",
+        "blocks":[
+       {
+       "type":"text"  
+       }
+       ]
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
